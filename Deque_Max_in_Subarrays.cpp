@@ -2,6 +2,10 @@
 #include <deque> 
 #include <limits>
 using namespace std;
+
+// This is all my own code, 
+// this was before hackerrank provided parsing functions 
+
 void printKMax(int arr[], int n, int k){
    deque<int> deck;
    // fill the deque to capacity

@@ -6,6 +6,7 @@ vector<string> split_string(string);
 
 /*
  * Complete the birthdayCakeCandles function below.
+ * START OF ALEX'S CODE
  */
 int birthdayCakeCandles(int n, vector<int> ar) {
     /*
@@ -25,6 +26,8 @@ int birthdayCakeCandles(int n, vector<int> ar) {
     }
     return max_freq;
 }
+
+// END ALEX'S CODE
 
 int main()
 {

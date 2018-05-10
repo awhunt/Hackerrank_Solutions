@@ -4,6 +4,7 @@ using namespace std;
 
 /*
  * Complete the diagonalDifference function below.
+ * START OF ALEX'S CODE
  */
 int diagonalDifference(vector<vector<int>> a) {
     /*
@@ -35,6 +36,8 @@ int diagonalDifference(vector<vector<int>> a) {
     
     return abs(diag1 - diag2);
 }
+
+// END ALEX'S CODE
 
 int main()
 {
